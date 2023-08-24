@@ -970,6 +970,8 @@ button {
    .van-list-filter-buttons button{
     font-size: .75rem;
     margin: 1px;
+    padding: 10px;
+    width: 70px;
    }
 
 

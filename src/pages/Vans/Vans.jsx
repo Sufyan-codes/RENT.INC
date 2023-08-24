@@ -92,7 +92,7 @@ export default function Vans() {
                         `van-type rugged 
                         ${typeFilter === "rugged" ? "selected" : ""}`
                     }
-                >Pent House</button>
+                >Rugged</button>
 
                 {typeFilter ? (
                     <button
