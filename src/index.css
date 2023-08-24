@@ -80,7 +80,7 @@ header .login-link {
     list-style: none;
     padding: 0 20px;
     position: relative;
-} 
+}
 
 .nav li button {
     background: none;
@@ -107,8 +107,9 @@ header .login-link {
     background-color: black;
     height: 1.5px;
     width: 30px;
-    margin:4px;
+    margin: 4px;
 }
+
 main {
     margin-bottom: 84px;
 }
@@ -260,8 +261,9 @@ footer {
 }
 
 .about-img {
-flex: 1;
+    flex: 1;
 }
+
 .about-hero-image>img {
     width: 500px;
 }
@@ -894,78 +896,98 @@ button {
     background: none;
 }
 
-.mobile-menue-icon{
+.mobile-menue-icon {
     display: none;
 }
-@media (max-width: 35.9rem){
+
+@media (max-width: 35.9rem) {
+
     .home-container img {
         display: none;
-      }
-      .home{
-        width: 100%;
-        padding-left: 10%;
-      }
-      .home-text{
-        width: 100%;
-          margin-bottom: 1rem;
-      }
-      
-      .home-text a{
-         width: 100%;
-         height: 50px;
-      }
-  
-      .home-text h1 {
-          width: 100%;
-          font-size: 3rem;
-          font-weight: 600;
-      }
-  
-      .home-text p {
-          font-size: 1.08rem;
-          width: 100%;
-      }
-  
-      .stat{
-          font-size: 1.2rem;
-      }
-      .stats {
-          width: 100%;
-          font-size: 1rem;
-      }
-  
-      .secondaryText {
-          font-size: .85rem;
-      }
-      .about-container{
-          display: flex;
-          flex-direction: column;
-      }
-      
-      .login-image {
-          display: none;
-      }
-  
-      .van-list-container h1{
-          font-size: 1.9rem;
-      }
-      .van-type{
-          font-size: 1rem;
-         
-      } 
-}
-@media (max-width:36em) {
-   
-    .home-container img {
-      display: none;
     }
-    .home-text{
+
+    .home {
+        width: 100%;
+
+    }
+
+    .home-text {
+        width: 100%;
         margin-bottom: 1rem;
     }
-    
-    .home-text a{
-       width: 100%;
-       height: 50px;
+
+    .home-text a {
+        width: 100%;
+        height: 50px;
+    }
+
+    .home-text h1 {
+        width: 100%;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .home-container {
+        display: none;
+    }
+
+    .home-text p {
+        font-size: 1.08rem;
+        width: 100%;
+    }
+
+    .stat {
+        font-size: 1.2rem;
+    }
+
+    .stats {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .secondaryText {
+        font-size: .85rem;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-image {
+        display: none;
+    }
+
+    .van-list-container h1 {
+        font-size: 1.9rem;
+    }
+
+    .van-type {
+        font-size: 1rem;
+
+    }
+
+   .van-list-filter-buttons button{
+    font-size: .75rem;
+    margin: 1px;
+   }
+
+
+}
+
+@media (max-width:36em) {
+
+    .home-container img {
+        display: none;
+    }
+
+    .home-text {
+        margin-bottom: 1rem;
+    }
+
+    .home-text a {
+        width: 100%;
+        height: 50px;
     }
 
     .home-text h1 {
@@ -979,9 +1001,10 @@ button {
         width: 100%;
     }
 
-    .stat{
+    .stat {
         font-size: 1.2rem;
     }
+
     .stats {
         width: 100%;
         font-size: 1rem;
@@ -990,83 +1013,90 @@ button {
     .secondaryText {
         font-size: .85rem;
     }
-    .about-container{
+
+    .about-container {
         display: flex;
         flex-direction: column;
     }
-    
+
     .login-image {
         display: none;
     }
 
-    .van-list-container h1{
+    .van-list-container h1 {
         font-size: 1.9rem;
     }
-    .van-type{
+
+    .van-type {
         font-size: 1rem;
-       
+
     }
 }
 
 @media (min-width:36.1em) and (max-width:47.8em) {
-    .home-container img {
+    .home-container {
         display: none;
-      }
-      .home-text{
-          margin-bottom: 1.2rem;
-      }
-      
-      .home-text a{
-         width: 100%;
-         height: 50px;
-      }
-  
-      .home-text h1 {
-          width: 100%;
-          font-size: 3rem;
-          font-weight: 600;
-      }
-  
-      .home-text p {
-          font-size: 1.08rem;
-          width: 100%;
-      }
-  
-      .stat{
-          font-size: 1.2rem;
-      }
-      .stats {
-          width: 100%;
-          font-size: 1rem;
-      }
-  
-      .secondaryText {
-          font-size: .85rem;
-      }
-      .about-container{
-          display: flex;
-          flex-direction: column;
-      }
-      
-      .login-image {
-          display: none;
-      }
-  
-      .van-list-container h1{
-          font-size: 1.9rem;
-      }
-      .van-type{
-          font-size: 1rem;
-         
-      }
-  
+    }
+
+    .home-text {
+        margin-bottom: 1.2rem;
+    }
+
+    .home-text a {
+        width: 100%;
+        height: 50px;
+    }
+
+    .home-text h1 {
+        width: 100%;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .home-text p {
+        font-size: 1.08rem;
+        width: 100%;
+    }
+
+    .stat {
+        font-size: 1.2rem;
+    }
+
+    .stats {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .secondaryText {
+        font-size: .85rem;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-image {
+        display: none;
+    }
+
+    .van-list-container h1 {
+        font-size: 1.9rem;
+    }
+
+    .van-type {
+        font-size: 1rem;
+
+    }
+
 }
-@media ( max-width:48em) {
+
+@media (max-width:48em) {
     .nav {
         display: none;
     }
 
-    .nav-links-mobile{
+    .nav-links-mobile {
         position: absolute;
         display: block;
         list-style: none;
@@ -1087,22 +1117,26 @@ button {
         width: 100%;
         transition: all 0.5s ease-in-out;
     }
-    
-    .mobile-menue-icon{
+
+    .mobile-menue-icon {
         position: absolute;
         display: block;
         right: 20px;
     }
 
-    .login-link{
-        margin-left: 43%;
+    .login-link {
+        margin-left: 50%;
         display: block;
         margin-bottom: 2rem;
+        transform: translate(-50%);
     }
-    .logout{
+
+    .logout {
         display: block;
-        margin-left: 43%;
+        margin-left: 50%;
+        transform: translate(-50%);
     }
+
     .home {
         display: flex;
         flex-direction: column;
@@ -1111,50 +1145,54 @@ button {
 }
 
 @media (min-width: 48.01em) and (max-width:62em) {
-    
-     
-      .home {
-        gap: 2rem;
-      }
-  
-      .home a {
-        width: 100%;
-      }
 
-      .home-text h1 {
+
+    .home {
+        gap: 2rem;
+    }
+
+    .home a {
+        width: 100%;
+    }
+
+    .home-text h1 {
         font-size: 2.85rem;
-      }
-      .home-text p {
-          font-size: 1.08rem;
-          width: 100%;
-      }
-  
-      .stat{
-          font-size: 1.2rem;
-      }
-      .stats {
-          width: 100%;
-          font-size: 1rem;
-      }
-  
-      .secondaryText {
-          font-size: .85rem;
-      }
-      .about-container{
-          display: flex;
-          flex-direction: column;
-      }
-      
-      .login-image {
-          display: none;
-      }
-  
-      .van-list-container h1{
-          font-size: 1.9rem;
-      }
-      .van-type{
-          font-size: 1rem;
-         
-      }
-  
+    }
+
+    .home-text p {
+        font-size: 1.08rem;
+        width: 100%;
+    }
+
+    .stat {
+        font-size: 1.2rem;
+    }
+
+    .stats {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .secondaryText {
+        font-size: .85rem;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-image {
+        display: none;
+    }
+
+    .van-list-container h1 {
+        font-size: 1.9rem;
+    }
+
+    .van-type {
+        font-size: 1rem;
+
+    }
+
 }

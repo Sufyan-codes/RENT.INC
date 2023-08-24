@@ -69,7 +69,7 @@ export default function Vans() {
     }
 
     return (
-        <div className="van-list-container width">
+        <div className="van-list-container width"> 
             <h1>Explore our House options</h1>
             <div className="van-list-filter-buttons">
                 <button
