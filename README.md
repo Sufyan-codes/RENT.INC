@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component
+# RENT.INC - House rental website
 
-![Design preview for the QR code component coding challenge](./Home%20page%20design.png)
+![Design preview for the website](./Home%20page%20design.png)
 
 ## Welcome! 👋
 
