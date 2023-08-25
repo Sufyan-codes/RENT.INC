@@ -55,8 +55,10 @@ export default function HostVanDetail() {
                             >
                                 {currentVan.type}
                             </i>
+                            <div className="van-detail-items">
                             <h3>{currentVan.name}</h3>
                             <h4>${currentVan.price}/month</h4>
+                            </div>
                         </div>
                     </div>
 

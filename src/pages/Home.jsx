@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import patternBg from "../assets/images/pattern.png"
 
 import CountUp from 'react-countup';
 
@@ -37,7 +38,9 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        
+        <img className="pattern" src={patternBg} />
+        <img className="pattern2" src={patternBg} />
+        <img className="pattern3" src={patternBg} />
         <div className="home-container">
         <img src="./r-architecture-2gDwlIim3Uw-unsplash.jpg" alt="" />
         </div>

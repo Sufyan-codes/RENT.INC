@@ -55,17 +55,18 @@ export default function Dashboard() {
                 </div>
                 
             </section>
-            <section className="host-dashboard-reviews">
+            {/* <section className="host-dashboard-reviews">
                 <div className="dashboard-page">               
-                 <h2>Review score</h2>
+                  <h2>Review score</h2>
 
-                    {/*<BsStarFill className="star" />*/}
+                    *<BsStarFill className="star" />
 
                     <p>
                         <span>5.0</span>/5
                     </p>
-                    <Link to="reviews">Details</Link></div>
-            </section>
+                    <Link to="reviews">Details</Link> 
+                    </div> 
+            </section> */}
             <section className="host-dashboard-vans">
                 <div className="top">
                     <h2>Listed houses</h2>
