@@ -1004,7 +1004,6 @@ button {
     font-size: .75rem;
     margin: 1px;
     padding: 10px;
-    width: 70px;
    }
 
    .pattern {
@@ -1113,7 +1112,7 @@ button {
     margin: 0;
    }
    .van-list-filter-buttons button{
-    width: 90px;
+    width: 60px;
     margin-right: .3rem;
    }
    .info a{
